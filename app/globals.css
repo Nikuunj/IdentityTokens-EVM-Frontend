@@ -23,6 +23,9 @@
   --color-step-line: #404348;
   --color-step-active: #65fc9f;
   --color-landhead-text: #3c315b;
+
+  /* ---- Dashboard and SideBar Colors ---- */
+  --color-dashboard-bg: #18191d;
 }
 
 @layer base {
