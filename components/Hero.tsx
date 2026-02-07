@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 import { Button } from "./Button";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
+import ToggleButton from "./ToggleButton";
 
 const TYPING_SPEED = 150;
 const DELETING_SPEED = 100;
@@ -92,7 +93,8 @@ export function Hero() {
             </span>
           </Link>
 
-          <div>
+          <div className="flex items-center gap-3 md:gap-4">
+            <ToggleButton />
             <Button
               variant="primary"
               className="px-4 py-2 text-sm font-semibold shadow-none md:px-6 md:py-3 md:text-base"
