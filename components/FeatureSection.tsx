@@ -61,15 +61,15 @@ export const FeatureSection: React.FC = () => {
   };
 
   return (
-    <section className="w-full bg-landing-bg py-20">
+    <section className="w-full bg-landing-bg py-20 dark:bg-landing-bg-dark">
       <div className="relative mx-auto max-w-[1440px] px-4">
         {/* --- Header Section --- */}
         <div className="relative mb-16 flex flex-col items-center justify-center">
           <div className="text-center">
-            <h2 className="mb-2 font-utsaha text-3xl tracking-wide text-landhead-text md:text-5xl">
+            <h2 className="mb-2 font-utsaha text-3xl tracking-wide text-landhead-text md:text-5xl dark:text-landhead-text-dark">
               The Architecture of
             </h2>
-            <h1 className="font-utsaha text-4xl tracking-tight text-landhead-text md:text-6xl">
+            <h1 className="font-utsaha text-4xl tracking-tight text-landhead-text md:text-6xl dark:text-landhead-text-dark">
               Trust
             </h1>
           </div>

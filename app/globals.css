@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   /* ---- Custom Fonts (Mapped from the Next.js localFont variables) ---- */
   --font-atyp: var(--font-atyp), ui-sans-serif, system-ui;
@@ -13,19 +15,25 @@
 
   /* ---- Layout Backgrounds ---- */
   --color-landing-bg: #f4f2ff;
+  --color-landing-bg-dark: #0c0b1a;
   --color-app-bg: #18191d;
   --color-dark-bg: #101115;
 
   /* ---- Landing Page Animated Card Colors ---- */
   --color-slate-white: #f4f4f4;
+  --color-slate-dark: #0f1117;
   --color-corner-stroke: #cdd4e3;
+  --color-corner-stroke-dark: #252833;
   --color-step-card: #18191d;
+  --color-step-card-dark: #ffffff;
   --color-step-line: #404348;
+  --color-step-line-dark: #c9cdd9;
   --color-step-active: #65fc9f;
   --color-landhead-text: #3c315b;
 
   /* ---- Dashboard and SideBar Colors ---- */
   --color-dashboard-bg: #18191d;
+  --color-landhead-text-dark: #f0efff;
 }
 
 @layer base {
@@ -38,5 +46,9 @@
   /* ---- Gradient Classes ---- */
   .gradient-cta {
     background: linear-gradient(179deg, #55e99d -9.25%, #fdfdff 99.21%);
+  }
+
+  .dark .gradient-cta {
+    background: linear-gradient(179deg, #1fbf75 -5.25%, #141822 99.8%);
   }
 }
