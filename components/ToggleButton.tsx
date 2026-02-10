@@ -1,13 +1,27 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+function getInitialTheme() {
+  if (typeof window === "undefined") return false;
+
+  const stored = localStorage.getItem("theme");
+  if (stored) return stored === "dark";
+
+  return window.matchMedia("(prefers-color-scheme: dark)").matches;
+}
+
 function ToggleButton() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(getInitialTheme);
   const [ripples, setRipples] = useState<
     Array<{ id: number; x: number; y: number; isDark: boolean }>
   >([]);
   const rippleIdRef = useRef(0);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", isDarkMode);
+    localStorage.setItem("theme", isDarkMode ? "dark" : "light");
+  }, [isDarkMode]);
 
   const toggleTheme = (e: React.MouseEvent<HTMLButtonElement>) => {
     // Get button position

@@ -60,7 +60,7 @@ export function Hero() {
 
     return () => clearTimeout(timer);
   }, [displayedText, isDeleting, wordIndex]);
-  0;
+
   return (
     <section className="relative flex min-h-screen w-full flex-col items-center bg-landing-bg dark:bg-landing-bg-dark">
       <motion.div
