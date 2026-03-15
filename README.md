@@ -4,7 +4,7 @@
 <!-- Organization Logo -->
 <div align="center" style="display: flex; align-items: center; justify-content: center; gap: 16px;">
   <img alt="Stability Nexus" src="public/stability.svg" width="175">
-  <img src="public/logos/logo.svg" width="155" />
+  <img alt="Decentralized Identity Tokens Logo" src="public/logos/logo.svg" width="155" />
 </div>
 
 &nbsp;
@@ -12,7 +12,8 @@
 <!-- Organization Name -->
 <div align="center">
 
-[![Static Badge](https://img.shields.io/badge/Stability_Nexus-/TODO-228B22?style=for-the-badge&labelColor=FFC517)](https://TODO.stability.nexus/)
+[![Static Badge](https://img.shields.io/badge/Stability_Nexus-/DIT-228B22?style=for-the-badge&labelColor=FFC517)](https://identity-tokens-evm-frontend.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <!-- Correct deployed url to be added -->
 
@@ -64,10 +65,10 @@ Decentralized Identity Tokens let anyone create and own a digital identity on th
 
 ### Blockchain
 
-- Solidity / solana / cardano / ergo Smart Contracts
-- Hardhat / foundry
-- Web3.js / Ethers.js / Wagmi
-- OpenZeppelin / alchemy / Infura
+- Solidity
+- foundry
+- Wagmi
+- OpenZeppelin
 
 ---
 
@@ -104,9 +105,7 @@ For more details, see [docs/workflow.md](docs/workflow.md).
 
 TODO: Add user flow diagrams showing how users interact with your application
 
-```
-[User Flow Diagram Placeholder]
-```
+> [User Flow Diagram Placeholder]
 
 ### Key User Journeys
 
@@ -129,7 +128,7 @@ TODO: Document main user flows:
 
 ---
 
-## �🍀 Getting Started
+## 🍀 Getting Started
 
 ### Prerequisites
 
@@ -187,20 +186,19 @@ TODO: Add screenshots showcasing your application
 
 ⭐ Don't forget to star this repository if you find it useful! ⭐
 
-Thank you for considering contributing to this project! Contributions are highly appreciated and welcomed. To ensure smooth collaboration, please refer to our [Contribution Guidelines](https://github.com/AOSSIE-Org/Template-Repo/blob/main/CONTRIBUTING.md).
+Thank you for considering contributing to this project! Contributions are highly appreciated and welcomed. To ensure smooth collaboration, please refer to our [Contribution Guidelines](CONTRIBUTING.md).
 
 ---
 
 ## ✨ Maintainers
 
 - [Kanishk Sogani](https://github.com/KanishkSogani)
-- [Maintainer Name](https://github.com/username)
 
 ---
 
 ## 📍 License
 
-TODO
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
