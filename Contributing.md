@@ -56,7 +56,7 @@ This creates your own copy under your account.
 
 ## 💻 Step 4: Clone Your Fork
 
-```
+```bash
 git clone https://github.com/YOUR-USERNAME/IdentityTokens-EVM-Frontend.git
 cd IdentityTokens-EVM-Frontend
 ```
@@ -65,7 +65,7 @@ cd IdentityTokens-EVM-Frontend
 
 ## 🔗 Step 5: Add Upstream Remote
 
-```
+```bash
 git remote add upstream https://github.com/StabilityNexus/IdentityTokens-EVM-Frontend.git
 git remote -v
 ```
@@ -76,7 +76,7 @@ git remote -v
 
 Never work on main.
 
-```
+```bash
 git checkout -b feature/short-description
 ```
 
@@ -93,7 +93,7 @@ Examples:
 
 ## 📦 Install Dependencies
 
-```
+```bash
 npm install
 ```
 
@@ -117,7 +117,7 @@ Husky is used for pre-commit hooks.
 
 If needed:
 
-```
+```bash
 npm run prepare
 ```
 
@@ -134,7 +134,7 @@ If commit fails, fix errors before retrying.
 
 ## ▶️ Start Development Server
 
-```
+```bash
 npm run dev
 ```
 
@@ -144,7 +144,7 @@ App runs locally (usually [http://localhost:3000](http://localhost:3000)).
 
 ## 🏗 Build Project
 
-```
+```bash
 npm run build
 ```
 
@@ -152,7 +152,7 @@ npm run build
 
 ## 🚀 Start Production Server
 
-```
+```bash
 npm run start
 ```
 
@@ -166,19 +166,19 @@ Before committing:
 
 ## 🔍 Run ESLint
 
-```
+```bash
 npm run lint
 ```
 
 ## ✨ Format Code
 
-```
+```bash
 npm run format
 ```
 
 ## ✅ Check Formatting
 
-```
+```bash
 npm run check-format
 ```
 
@@ -232,7 +232,7 @@ Test wallet connection manually before PR.
 
 # 7️⃣ Commit Properly
 
-```
+```bash
 git add .
 git commit -m "feat: short clear description"
 ```
@@ -252,7 +252,7 @@ Avoid vague messages like "update".
 
 Before pushing:
 
-```
+```bash
 git fetch upstream
 git merge upstream/main
 ```
@@ -263,7 +263,7 @@ Resolve conflicts locally.
 
 # 9️⃣ Push Your Branch
 
-```
+```bash
 git push origin feature/short-description
 ```
 
