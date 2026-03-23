@@ -57,11 +57,9 @@
 
 ## Project Workflow
 
-![Identity Workflow](docs/workflow.svg)
+To understand the development process, contribution flow, and project structure, please refer to the detailed workflow guide:
 
-The diagram above gives an overview of the identity token flow: self-issued identity minting, on-chain storage of identities, endorsements between holders, optional revocation, frontend interaction with chain data, and external verification by third-party services.
-
-For more details, see [docs/workflow.md](docs/workflow.md).
+👉 [View Workflow](docs/workflow.md)
 
 ---
 
